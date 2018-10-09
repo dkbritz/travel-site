@@ -3,21 +3,42 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
+
+  "dependencies": 
+  {
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0"
   },
-  "devDependencies": {},
-  "scripts": {
+
+  "devDependencies":
+  {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-import": "^12.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^4.1.0",
+    "postcss-simple-vars": "^5.0.1"
+  },
+
+  "scripts":
+  {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
+
+  "repository":
+  {
     "type": "git",
     "url": "git+https://github.com/dkbritz/travel-site.git"
   },
+
   "author": "",
   "license": "ISC",
-  "bugs": {
+
+  "bugs":
+  {
     "url": "https://github.com/dkbritz/travel-site/issues"
   },
   "homepage": "https://github.com/dkbritz/travel-site#readme"

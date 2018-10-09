@@ -1,0 +1,15 @@
+.page-section
+{
+  padding: 0.5rem 0;
+  @mixin atMedium
+  {
+    padding: 5rem 0;
+  }
+
+  &--blue
+  {
+    background-color: $daveBlue;
+    color: #FFFFFF;
+  }
+
+}
