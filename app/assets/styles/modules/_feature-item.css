@@ -2,6 +2,7 @@
 {
   position: relative;
   padding-bottom: 2rem;
+  padding-right: 5rem;
 
   @mixin atSmall
   {
