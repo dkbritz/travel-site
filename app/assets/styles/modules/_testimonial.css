@@ -24,7 +24,7 @@
   }
 
   &__title {
-    color: $daveRed;
+    color: $daveBlue;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;

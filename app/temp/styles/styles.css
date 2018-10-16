@@ -1001,7 +1001,7 @@ a {
   }
 
 .testimonial__title {
-    color: #701040;
+    color: #026369;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
@@ -1355,4 +1355,18 @@ Instead edit gulp/templates/sprite */
       padding: 12px 0;
       background-color: transparent
   }
+  }
+
+.reveal-item
+{
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-out;
+  transition: opacity 2s ease-out;
+
+
+}
+
+.reveal-item--is-visible
+  {
+    opacity: 1;
   }
