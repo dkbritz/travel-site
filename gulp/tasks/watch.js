@@ -16,7 +16,12 @@ gulp.task('watch',
     watch('./app/assets/styles/**/*.css', function()
     {
           gulp.start('cssInject');
-          browserSync.reload();
+    }
+    );
+
+    watch('./app/assets/scripts/**/*.js', function()
+    {
+          gulp.start('scripts');
     }
     );
 
@@ -32,9 +37,15 @@ gulp.task('watch',
   //When running cssInject, we also want to run the DEPENDENT task 'styles' to make sure that the postcss updates,
   //so that when we pipe to browserSync, we know the styles.css has been updated.
 
+
   gulp.task('cssInject',['styles'],function()
   {
     return gulp.src('./app/temp/styles/styles.css')
     .pipe(browserSync.stream());
 
-  });
+  }
+
+
+
+
+);

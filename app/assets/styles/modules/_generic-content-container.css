@@ -1,23 +1,17 @@
-.generic-content-container
-{
-  p
-  {
-    line-height: 1.5;
+.generic-content-container {
+  
+  p {
     font-weight: 300;
+    line-height: 1.65;
     margin: 0 0 1.8rem 0;
-    font-size: 0.9rem;
 
-    @mixin atSmall
-    {
-      font-size: 1.1rem;
+    @mixin atSmall {
+      font-size: 1.125rem;
     }
   }
 
-
-  /*Within the paragraph element, all links will be bold.*/
-  p a
-  {
+  p a {
     font-weight: 700;
-    color: $daveRed;
   }
+
 }

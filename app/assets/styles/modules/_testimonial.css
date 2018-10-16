@@ -3,18 +3,16 @@
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
 
-  @mixin atMedium {
+  @mixin atLarge {
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 1.8125rem;
   }
 
-  &--last
-  {
+  &--last {
     margin-bottom: 0;
   }
 
-  &__photo
-  {
+  &__photo {
     border-radius: 80px;
     overflow: hidden;
     width: 160px;
@@ -25,17 +23,15 @@
     border: 6px solid rgba(255, 255, 255, .8);
   }
 
-  &__title
-  {
-    color: $mainBlue;
+  &__title {
+    color: $daveRed;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0;
   }
 
-  &__subtitle
-  {
+  &__subtitle {
     color: $mainOrange;
     text-align: center;
     font-weight: 400;

@@ -1,24 +1,17 @@
-/*Default for all page text*/
-body
-{
+body {
   font-family: 'Roboto', sans-serif;
-  color: #444;
+  color: #333;
 }
 
-img
-{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-
-*
-{
+* {
   box-sizing: border-box;
 }
 
-/*This will give all links an orange color!*/
-a
-{
+a {
   color: $mainOrange;
 }
