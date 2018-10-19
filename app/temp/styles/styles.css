@@ -1133,8 +1133,13 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px) {
 
 .site-header {
+    position: fixed;
     background-color: rgba(2,99,105, .3)
 }
+    .site-header--dark
+    {
+      background-color: rgba(0,0,0,.85);
+    }
   }
 
 @media (min-width: 800px) {
@@ -1338,7 +1343,8 @@ Instead edit gulp/templates/sprite */
   }
   }
 
-.primary-nav a {
+.primary-nav a
+  {
     color: #FFF;
     font-weight: 300;
     text-decoration: none;
@@ -1350,11 +1356,17 @@ Instead edit gulp/templates/sprite */
 
 @media (min-width: 800px) {
 
-.primary-nav a {
+.primary-nav a
+  {
       font-size: 1rem;
       padding: 12px 0;
       background-color: transparent
   }
+
+    .primary-nav a.is-current-link
+    {
+        color: red;
+    }
   }
 
 .reveal-item
